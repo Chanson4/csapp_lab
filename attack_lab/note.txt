@@ -1,0 +1,10 @@
+- `0x39abaf37a30ce8a4`
+- `0xeffc53efd13d4e30`
+按顺序存入栈 顺序如下
+| a4 | e8 | 0c | a3 | 37 | af | ab | 39 |  <- 栈顶（地址 1）
+| 30 | 4e | 3d | d1 | ef | 53 | fc | ef |  <- 栈底（地址 2）
+栈以字为单位进行存储
+
+LD_PRELOAD=./printf.so gdb ctarget -q
+
+

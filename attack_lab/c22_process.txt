@@ -1,0 +1,12 @@
+rsp -> rax
+rax -> rdi
+pop rax
+offset
+eax -> edx
+edx -> ecx
+ecx -> esi
+add_xy (edi + esi) -> rax
+rax -> rdi
+touch3
+cookie
+
